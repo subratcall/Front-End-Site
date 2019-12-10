@@ -1,0 +1,144 @@
+.bg-color{
+    background: linear-gradient(45deg,red,black,red);
+}
+
+#logo{
+    border-radius: 50% 50% 0 0;
+}
+header{
+    background-color:#c6faf1;
+}
+.heading{
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 25px;
+}
+
+/*--- social icons ---*/
+@media(min-width: 576px) {
+    span {
+        margin-left: 600px;
+    }
+
+    span a {
+        padding: 10px;
+        border-radius: 50%;
+    }
+
+    span a i {
+        font-size: 20px;
+    }
+
+    .f_facebook:hover {
+        color: #fff;
+        background: #2a66b3;
+        border: 1px solid #2a66b3;
+
+    }
+
+    .t_twitter:hover {
+        color: #fff;
+        background: #35bbec;
+        border: 1px solid #35bbec
+    }
+
+    .pinterest:hover {
+        color: #fff;
+        background: #cb2027;
+        border: 1px solid #cb2027
+    }
+
+    .linkedin:hover {
+        color: #fff;
+        background: #007bb5;
+        border: 1px solid #007bb5
+    }
+
+    .g_google:hover {
+        color: #fff;
+        background: #e55644;
+        border: 1px solid #e55644
+    }
+
+    .instagram:hover {
+        color: #fff;
+        background: #ea4c89;
+        border: 1px solid #ea4c89
+    }
+
+    .github:hover {
+        color: #fff;
+        background: black;
+        border: 1px solid black;
+    }
+
+    .gap {
+        margin-left: 15px
+    }
+
+}
+
+/* ----------------- Main Navbar ------------------- */
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    outline: none;
+}
+
+/* ---- Gallery section ---*/
+h1{
+    font-size: 25px;
+    margin-top: 15px;
+    color: red;
+}
+.gallery-artical{
+    display: inline-block;
+
+}
+/*------Service section --*/
+.service-artical{
+    display: inline-block;
+    margin-top: 10px;
+}
+ .service-artical,h,ui,li a{
+   list-style: none;
+     text-decoration: none;
+     color: black;
+}
+.service-artical,h,ui,li{
+    display: inline-block;
+
+}
+.service-img{
+    border-radius:50%;
+    background-color: orangered;
+    padding: 10px;
+    height: 120px;
+    width: 120px
+}
+/*---About section---*/
+.about-section{
+    border: 1px solid red;
+    margin: auto;
+    padding: 10px;
+}
+.about-article{
+    margin-top: 10px;
+}
+/*--Customer section---*/
+.customer-artical{
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+.customer-img{
+    height: 80px;
+    width: 120px;
+}
+
+.technology-img{
+    height: 80px;
+    width: 120px;
+}
